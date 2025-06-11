@@ -428,7 +428,7 @@ def uuu():
       infoinsta[username] = response.json().get('data', {}).get('user', {})
       rr = infoinsta.get(username,{})
       fows = rr.get('follower_count', None)
-      if fows >= 1:
+      if fows >= 30:
 	      email = username + domain
 	      check_on(email)
           
