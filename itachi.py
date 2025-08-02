@@ -104,18 +104,14 @@ def pppp():
     b = random.randint(5,208)
     bo = f'\x1b[38;5;{b}m'
     os.system('cls' if os.name == 'nt' else 'clear')
-
-output = (f"\n"
-          f"📊 Instagram Check Report\n"
-          f"────────────────────────────\n"
-          f"✅ True (Valid)     : {hits}\n"
-          f"🌀 Generated        : {badinsta}\n"
-          f"❌ Bad Emails       : {bademail}\n"
-          f"🔍 Not Found        : {goodig}\n"
-          f"────────────────────────────\n\n")
-
-sys.stdout.write(output)
-sys.stdout.flush()
+    output = (f"\n"
+              f"[True]:[{hits}]\n"
+              f"[Gen]:[{badinsta}]\n"
+              f"[Bad]:[{bademail}]\n"
+              f"[Not]:[{goodig}]\n"
+              f"\n\n")
+    sys.stdout.write(output)
+    sys.stdout.flush()
 yy = 'azertyuiopmlkjhgfdsqwxcvbn'
 def tll():
     try:
