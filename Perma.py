@@ -138,10 +138,16 @@ ID=input('USER ID: ')
 CHANNEL_1 = "https://t.me/PermaEra"   
 CHANNEL_2 = "https://t.me/Praveenfile"  
 
-msg = """🚀 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 𝗣𝗘𝗥𝗠𝗔 × 𝗣𝗥𝗔𝗩𝗘𝗘𝗡 𝗧𝗼𝗼𝗹 💫  
+msg = """╭━━━〔 ⏳ 𝑷𝑬𝑹𝑴𝑨 × 𝑷𝑹𝑨𝑽𝑬𝑬𝑵 〕━━━╮  
 
-⚡ 𝗕𝗲𝗳𝗼𝗿𝗲 𝘆𝗼𝘂 𝗰𝗮𝗻 𝘂𝘀𝗲 𝘁𝗵𝗶𝘀 𝘁𝗼𝗼𝗹, 𝗽𝗹𝗲𝗮𝘀𝗲 𝗷𝗼𝗶𝗻 𝗼𝘂𝗿 𝗼𝗳𝗳𝗶𝗰𝗶𝗮𝗹 𝗰𝗵𝗮𝗻𝗻𝗲𝗹𝘀:  
-"""
+🚀 𝗙𝗜𝗟𝗘 𝗘𝗫𝗣𝗜𝗥𝗘𝗗 ❌  
+⚡ 𝗕𝘂𝘆 𝗣𝗮𝗶𝗱 𝗩𝗲𝗿𝘀𝗶𝗼𝗻 ➤ @Pyobscura  
+
+💡 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 𝗣𝗘𝗥𝗠𝗔 × 𝗣𝗥𝗔𝗩𝗘𝗘𝗡 𝗧𝗼𝗼𝗹 💫  
+➡️ 𝗕𝗲𝗳𝗼𝗿𝗲 𝘆𝗼𝘂 𝗰𝗮𝗻 𝘂𝘀𝗲 𝘁𝗵𝗶𝘀 𝘁𝗼𝗼𝗹,  
+𝗽𝗹𝗲𝗮𝘀𝗲 𝗰𝗼𝗻𝘁𝗮𝗰𝘁 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿.  
+
+╰━━━━━━━━━━━━━━━━━━━━━━╯"""
 
 url = f"https://api.telegram.org/bot{Token}/sendMessage"
 
@@ -166,8 +172,18 @@ except Exception as e:
     print(f"⚠️ Exception: {e}")
 
 
-intro_msg = """𝑷𝑬𝑹𝑴𝑨 × 𝑷𝑹𝑨𝑽𝑬𝑬𝑵
-🚀  FILE EXPIRED BUY PAID - @PYOBSCURA """
+intro_msg = """━━━━━━━━━━━━━━━
+⏳ 𝑷𝑬𝑹𝑴𝑨 × 𝑷𝑹𝑨𝑽𝑬𝑬𝑵
+━━━━━━━━━━━━━━━
+
+🚀 FILE EXPIRED ❌  
+⚡ Buy Paid - @Pyobscura or @permapy
+
+💡 Welcome to PERMA × PRAVEEN Tool 💫  
+➡️ Before you can use this tool,  
+please contact Developer.  
+
+━━━━━━━━━━━━━━━ """
 
 url = f"https://api.telegram.org/bot{Token}/sendMessage"
 
