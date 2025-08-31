@@ -39,7 +39,7 @@ print(Fore.CYAN + "💻" + "="*58 + "💻")
 print(Fore.WHITE + "   ✨ Created by: " + Fore.YELLOW + "@Pyobscura" + Fore.WHITE + " | ⚡ @Praveenridirect ✨")
 print(Fore.CYAN + "💻" + "="*58 + "💻")
 
-print(Fore.GREEN + "\n📢 I dont know who made it , i (@Pyobscura ) just edited it and added some domains and another interface.\n")
+print(Fore.GREEN + "\n📢  , i (@Pyobscura ) just edited it and added some domains and another interface.\n")
 print(Fore.MAGENTA + "❌ Any Error or Problem? 🤔 Ask me in DM at 👉 @Pyobscura 💬\n\n")
 
 Tok = input(Fore.YELLOW + "🔑 Enter Token : ")
