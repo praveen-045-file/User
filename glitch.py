@@ -46,6 +46,10 @@ import requests
 import time
 import sys
 from datetime import datetime, timedelta
+import requests
+import time
+import sys
+from datetime import datetime, timedelta
 
 REMOTE_URL = "https://raw.githubusercontent.com/LEVIXX797/1/main/Acess.txt"
 
@@ -84,8 +88,13 @@ def check_id_validity(input_id):
                     remaining_time = expiry_dt - datetime.now()
                     hrs, rem = divmod(remaining_time.seconds, 3600)
                     mins, secs = divmod(rem, 60)
+                    
                     print(f"\033[1m\n[✅] Valid ID. Access expires in {hrs}h {mins}m {secs}s.\033[0m")
                     print(f"\033[1m[⏳] Expiry Date & Time: {expiry_dt}\033[0m")
+                    
+                    # 👇 Yeh dono print hone ke baad 3 sec rukega
+                    time.sleep(3)
+                    
                     return True
                 else:
                     print("\033[1m\n[⛔] This ID has expired. Renew your subscription via @GL1T5\033[0m")
@@ -225,3 +234,4 @@ minimum_followers=safe_int_input('Enter minimum followers needed: ',0)
 minimum_posts=safe_int_input('Enter minimum number of posts needed: ',0)
 
 for _ in range(120):Thread(target=gg,args=(minimum_followers,minimum_posts,generate_user_id)).start()
+
